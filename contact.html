@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+<nav>
+    <a href="index.html">Home</a>|
+    <a href="surroundings.html">Omgeving</a>|
+    <a href="contact.html">Contact</a>|
+    <a href="booking.html">Reserveer</a>
+    <!-- Hier nog iets voor verschillende talen-->
+</nav>
+
+<form onsubmit="later-met-javascript-invullen">
+    <h2>Bij vragen, neem gerust contact met ons op</h2>
+
+    <label for="user-name-field">Naam:</label>
+    <input type="text" placeholder="Uw naam" id="user-name-field" name="fullname"/>
+
+    <label for="user-email-field">E-mailadres:</label>
+    <input type="email" placeholder="Uw e-mailadres (optioneel)" id="user-email-field" name="email"/>
+
+    <label for="user-phone-field">Telefoonnummer:</label>
+    <input type="number" placeholder="Uw telefoonnummer (optioneel)" id="user-phone-field" name="phonenumber"/>
+
+    <label for="user-subject-field">Onderwerp:</label>
+    <input type="text" placeholder="Onderwerp (optioneel)" id="user-subject-field" name="subject"/>
+
+    <label for="user-message-field">Bericht:</label>
+    <textarea name="message" id="user-message-field" cols="30" rows="10" placeholder="Waar kunnen we u mee helpen?"></textarea>
+
+    <input type="checkbox" id="checkbox-phone" name="phone-me">
+    <label for="checkbox-phone">Ik wil het liefst gebeld worden (tijdens kantooruren)</label>
+
+    <button type="submit">Verzenden</button>
+</form>
+</body>
+</html>
